@@ -1,0 +1,9 @@
+node_modules
+babel.config.js
+bin
+ios/pods
+metro.config.js
+rn-cli.config.js
+setup-ide.sh
+yarn.lock
+js/res

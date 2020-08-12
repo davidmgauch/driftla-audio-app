@@ -1,0 +1,35 @@
+{
+  "name": "DriftLaAudio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "postinstall": "jetifier -r"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "^0.59.3",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-rename": "^2.4.1",
+    "react-native-screens": "^2.0.0-alpha.1",
+    "react-navigation": "^4.0.0",
+    "react-navigation-stack": "^1.5.3",
+    "react-viro": "2.16.0",
+    "react-viro-cli": "^2.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "jetifier": "^1.6.4",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
